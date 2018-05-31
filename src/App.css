@@ -3,6 +3,21 @@
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  0% { transform: rotate(0deg); }
+  6% { transform: rotate(-20deg); }
+  10% { transform: rotate(-30deg); }
+  15% { transform: rotate(0deg); }
+  /* 64% { transform: rotate(0deg); } */
+  /* 65% { transform: rotate(-180deg); } */
+  /* 66% { transform: rotate(-90deg); } */
+  /* 69% { transform: rotate(0deg); } */
+  100% { transform: rotate(0deg); }
 }
+/* mainBackground{
+  background-color: #f2f2f2;
+  width: 100vw;
+  height: calc(100vh - 100px);
+}
+actualContentContainer{
+
+} */

@@ -1,0 +1,46 @@
+.profileProfileContainer{
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 
+  rgba(0, 0, 0, 0.1), 0 1px 2px 0 
+  rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.picAndNames{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+}
+.names b{
+    margin: 2px auto 2px 0;
+}
+.profileFormContainer{
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 
+rgba(148, 110, 110, 0.1), 0 1px 2px 0 
+  rgba(0, 0, 0, 0.2);
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.profileForm{
+    width: 200px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+}
+input{
+    color: black;
+}

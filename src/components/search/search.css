@@ -1,0 +1,139 @@
+.bigSearchContainer{
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 
+    rgba(0, 0, 0, 0.1), 0 1px 2px 0 
+    rgba(0, 0, 0, 0.2);
+}
+.searchUpper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.searchUpper select, input, button{
+    margin: 10px 10px;
+}
+.resultsContainer{
+    min-height: 300px;
+    max-height: 525px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.searchButton{
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50%-46%, #737373, #403d39);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    height: 25px;
+    width: 100px;
+    color: white;
+}
+.resetButton{
+    border: none;
+    height: 25px;
+    width: 100px;
+    /* color: white; */
+    background-image: radial-gradient(circle at 50% 0, #ffffff, #f1eceb);
+    border: solid 1px #ccc3c3;
+}
+.entryContainer{
+    border-radius: 100% 20% 50% 20%;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    height: 150px;
+    width: 430px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.entryContainer img{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+.entryContainer button{
+    height: 30px;
+    width: 125px;
+    font-size: 15px;
+    color: white;
+    border-radius: 1px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 
+    0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border: none; 
+    align-self: center;
+}
+.entryNames{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.entryNames b {
+    margin: 5px 0;
+    max-width: 125px;
+    /* font-size: 15px; */
+}
+.removeFriendButton{
+    background-image: radial-gradient(circle at 50%-46%, #737373, #403d39);
+}
+.addFriendButton{
+    background-image: radial-gradient(circle at 50%-46%, rgb(91, 136, 0), #403D39);
+}
+.invisiblePageContainer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchPagesContaier{
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50%-46%, rgb(91, 136, 0), #403D39);    
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    height: 50px;
+    width: 800px;
+    /* padding: 0 30px 30px; */
+    margin: 0 auto 10px auto;
+    /* margin-top: 10px; */
+    /* align-self: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.page{
+    background-image: radial-gradient(circle at 50% 0, #ffffff, #f1eceb);
+    box-shadow: 0 1px 3px 0  rgba(0, 0, 0, 0.1),
+     0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    height: 20px;
+    width: 20px;
+    padding-top: 1px;
+    color: black;
+    cursor: pointer; 
+}
+.currentPage{
+    background-image: radial-gradient(circle at 50%-46%, #737373, #403d39);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    height: 20px;
+    width: 80px;
+    padding-top: 1px;
+    color: white;    
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
